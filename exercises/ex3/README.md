@@ -7,10 +7,10 @@ In the previous excercise we analyzed standard activities related to `Sell from 
 ## Exercise 3.1 Navigate to the process data model
 
 1. Click `Process settings`
-![](images/3_001.png)
+<br>![](images/3_001.png)
 
 2. Under tab `Data` click `View`
-![](images/3_002.png)
+<br>![](images/3_002.png)
 
 This will lead you to the underlying process data model. 
 
@@ -20,10 +20,10 @@ Process data management involves a wide range of tasks, such as extracting, tran
 ## Exercise 3.2 Add further Events
 
 1. Click `Sales Order` in the process data pipeline step to open the Event collector
-![](images/3_003.png)
+<br>![](images/3_003.png)
 
 2. Click `Add event collector`
-![](images/3_004.png)
+<br>![](images/3_004.png)
 
 3. Copy & paste the following code into the new collector. You might also rename it to `Block delivery`
 ```
@@ -46,13 +46,13 @@ WHERE
    e.BusinessEventType = 'OvrlDlvBlkStsChgd' AND
    p.BusEvtLogNewFieldValue IN ('C') -- blocked
 ```
-The SQL-based transformation will rename the event and connect it the our proces instances (*Cases*; each case equals to a single Sales Order).
+The SQL-based transformation add the new event to our process instances (*Cases*; each case equals to a single Sales Order).
 
 4. Click the `preview` button to check if the extractor returns entries
-![](images/3_011.png)
+<br>![](images/3_011.png)
 
 5. Note, to find further events open [api.sap.com](api.ap.com), navigate to `S/4HANA Cloud` -> `Events`
-![](images/3_005.png)
+<br>![](images/3_005.png)
 
 Further details can be found in `Event reference` as well as in the `Business Documentation`. Follow the links to learn more about the underlying process details. 
 
@@ -60,43 +60,34 @@ Further details can be found in `Event reference` as well as in the `Business Do
 ## Exercise 3.3 Add further case attributes
 
 1. Select `Case attributes` and search for column `DistributionChannel`, add it to the case attributes in the SQL editor (Mind the comma!).
-![](images/3_006.png)
+<br>![](images/3_006.png)
 
 2. Click the `preview` button to check if the new column was added correctly
-![](images/3_011.png)
+<br>![](images/3_011.png)
 
 3. Note, to learn more about the S/4HANA virtual data model go to [api.sap.com](api.ap.com), navigate to `S/4HANA Cloud` -> `CDS Views`
-![](images/3_007.png)
+<br>![](images/3_007.png)
 
-
-## Exercise 3.3 Add further case attributes
-
-1. Select `Case attributes` and search for column `DistributionChannel`, add it to the case attributes in the SQL editor (Mind the comma!).
-![](images/3_006.png)
-
-2. Note, to learn more about the S/4HANA virtual data model go to [api.sap.com](api.ap.com), navigate to `S/4HANA Cloud` -> `CDS Views`
-![](images/3_007.png)
-
-3. Navigate back to the pipeline overview
-![](images/3_008.png)
+4. Navigate back to the pipeline overview
+<br>![](images/3_008.png)
 
 
 ## Exercise 3.4 Retrieve the latest data out of the productive S/4HANA Cloud system
 
 1. Click `Run T&L` to run the transform & load step. 
-![](images/3_009.png)
+<br>![](images/3_009.png)
 *Note: Click the ETL button will also retrieve the latest delta out of the actual S/4HANA Cloud backend - note that during the exercise all participants are connected to the very same system and clicking ETL will lead to additonal delays* 
 
 2. Find the pipeline logs below the pipeline overview and click the latest entry to see the progress of the transform and load steps. 
-![](images/3_010.png)
+<br>![](images/3_010.png)
 
 3. Wait until both indicators show a green status
-![](images/3_012.png)
+<br>![](images/3_012.png)
 
 *Note: in case of errors click the log entry to find an error message. You might need to fix/adjust your extraction scripts. 
 
 4. Click target of the process pipeline to navigate again into the investigation view. 
-![](images/3_013.png)
+<br>![](images/3_013.png)
 
 
 ## Summary
