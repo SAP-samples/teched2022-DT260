@@ -5,10 +5,10 @@ In this exercise you’ll explore standard processes of an SAP S/4HANA Cloud sys
 
 ## Exercise 1.1 Logon
 
-Open the [`SAP Signavio Process Explorer`](https://editor.signavio.com/p/hub)
+Open the SAP Signavio Process Explorer [(https://editor.signavio.com/p/hub)](https://editor.signavio.com/p/hub)
 Logon with your username/password as provided by the trainings 
 
-*Attention:* throughout the exercised replace `XXX` with your personal participant number!
+_**Attention: throughout the exercise replace `XXX` with your personal participant number!**_
 
 <br>![](images/0_001.png)
 
@@ -21,27 +21,22 @@ Logon with your username/password as provided by the trainings
 <br>![](images/0_002.png)
 
 
-2. Click to navigate to the `Solution Process House`
+2. Select `Lead to Cash`
 <br>![](images/0_003.png)
 
-
-3. At this point you can navigate now directly to the Solution Process House for Consumer Products  (step a.) ) or opening the Solution Process House for Cross Indsutry (step b.) ) content. We will click on the `Solution Process House for Consumer Products`
+3. In the sidebar select `Lead to Cash (Consumer Products)`
 <br>![](images/0_004.png)
-
-4. Solution Process House for Consumer Products is open and you can explore the content per end-to-end process. We drill-down further into the process for `Lead-to-Cash` and selecting the `Lead to Cash (Consumer Products)`
-<br>![](images/0_005.png)
 
 5. To navigate to the Sell from Stock we drill down deeper on the `Order to Fulfill (Standard B2B)` process by clicking on the plus sign
 <br>![](images/0_006.png)
 
-
-6. To see now the BPMN best practice process for Sell from Stock in SAP S/4HANA Cloud, click on the plus sign of `Manage Customer Orders`
+5. To see now the BPMN best practice process for Sell from Stock in SAP S/4HANA Cloud, click on the plus sign of `Manage Customer Orders`
 <br>![](images/0_007.png)
 
-7. Overview of the best practice process `5HL - Sell from Stock for Consumer Products`. It provides you with a high level overview of the process flow (in Business Process Modelling Notation), all involved business roles and tasks to fulfill this activity and links to subsequent processes (e.g. J59 Account Receivable)
+6. You'll find an overview of the best practice process `5HL - Sell from Stock for Consumer Products` (in Business Process Modelling Notation), all involved business roles and tasks to fulfill this activity, and links to subsequent processes (e.g. J59 Account Receivable)
 <br>![](images/0_008.png)
 
-8. To evaluate the metrics for Sell from Stock, activate the `Overlay` functionality and chose `metrics`.
+7. To evaluate the metrics for Sell from Stock, activate the `Overlay` functionality and chose `metrics`.
 <br>![](images/0_009.png)
 
 8. Click one of the orange elements to peek into relevant metrics. 

@@ -1,6 +1,6 @@
 # Exercise 3: Adapt the process data model
 
-In the previous excercise we analyzed standard activities related to `Sell from Stock - Consumer Products (5HL)` as designed in SAP S/4HANA. In this exercise we'll further extend the process data model to also include further data and events based on our own SAP S/4HANA Cloud system.
+In the previous exercise we analysed standard activities related to Sell from Stock` process. In this exercise we'll further extend the process data model to also another Business Events and context data out of the connected SAP S/4HANA Cloud system.
 
 
 
@@ -29,22 +29,18 @@ Process data management involves a wide range of tasks, such as extracting, tran
 ```
 SELECT
     'Block delivery for Sales Order' as c_eventname,
-    
     replace(ltrim(replace(SAPBusinessObjectNodeKey1, '0', ' ')), ' ', '0') AS c_caseid, /* remove leading zeros */
-    FROM_UNIXTIME(BusEvtLogCreationDateTime / 1000)     AS c_time, 
-    
-    CreatedByUser                                       AS CreatedByUser,
+    FROM_UNIXTIME(BusEvtLogCreationDateTime / 1000) AS c_time, 
+    CreatedByUser AS CreatedByUser,
     IsTechnicalUser
-    
 FROM 
    C_BusEvtLogEventDEX AS e
    LEFT JOIN  C_BusEvtLogPayloadDEX as p ON e.businesseventuuid = p.businesseventuuid
-   
 WHERE 
    e.SAPObjectType = 'SalesOrder' AND
    e.SAPObjectNodeType != 'SalesOrderItem' AND
    e.BusinessEventType = 'OvrlDlvBlkStsChgd' AND
-   p.BusEvtLogNewFieldValue IN ('C') -- blocked
+   p.BusEvtLogNewFieldValue IN ('C') -- C=blocked
 ```
 The SQL-based transformation add the new event to our process instances (*Cases*; each case equals to a single Sales Order).
 
@@ -76,7 +72,7 @@ Further details can be found in `Event reference` as well as in the `Business Do
 
 1. Click `Run T&L` to run the transform & load step. 
 <br>![](images/3_009.png)
-*Note: Click the ETL button will also retrieve the latest delta out of the actual S/4HANA Cloud backend - note that during the exercise all participants are connected to the very same system and clicking ETL will lead to additonal delays* 
+*Note: Click the ETL button will also retrieve the latest delta out of the actual S/4HANA Cloud backend - note that during the exercise all participants are connected to the very same system and clicking ETL will lead to additional  delays* 
 
 2. Find the pipeline logs below the pipeline overview and click the latest entry to see the progress of the transform and load steps. 
 <br>![](images/3_010.png)
@@ -84,7 +80,7 @@ Further details can be found in `Event reference` as well as in the `Business Do
 3. Wait until both indicators show a green status
 <br>![](images/3_012.png)
 
-*Note: in case of errors click the log entry to find an error message. You might need to fix/adjust your extraction scripts. 
+*Note: in case of errors click the log entry to find further details about the error. You might need to fix/adjust your extraction scripts and re-run T&L.
 
 4. Click target of the process pipeline to navigate again into the investigation view. 
 <br>![](images/3_013.png)
@@ -92,6 +88,6 @@ Further details can be found in `Event reference` as well as in the `Business Do
 
 ## Summary
 
-You've now added further events and attributes to the process data model. You can and work with the additonatl context in your investigation. 
+You've now added further events and attributes to the process data model. You can and work with the additional  context in your investigation. 
 
 Continue to - [Exercise 4: Investigate and improve your process](../ex4/README.md)

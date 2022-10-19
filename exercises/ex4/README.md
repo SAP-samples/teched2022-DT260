@@ -1,10 +1,10 @@
 # Exercise 4: Investigate and improve your process
 
-In this exercise we'll learn how we can use SAP Signavio Process Intelligence drill into process details. We'll mark spots for improvement with teh built in Insights to collaboratively track process improvements. Then we'll check how to use the Process Explorer again to find potential innovations helping implement process improvements.
+In this exercise we'll learn how we can use SAP Signavio Process Intelligence drill into process details. We'll mark spots for improvement with the built in Insights to collaboratively track process improvements. Then we'll check how to use the Process Explorer again to find potential innovations helping implement process improvements.
 
 
-## Exercise 4.1 Add a new behaviour based investigation
-We suspect that there is some rework happening due to the fact that a Sales Order was not created properly in first place. So well try to disect the data further. 
+## Exercise 4.1 Add a new behaviour based-investigation
+We suspect that there is some rework happening due to the fact that a Sales Order was not created properly in first place. So well try to further dissect the data set. 
 
 1. To test our hypothesis we'll create a `New Chapter`
 <br>![](images/4_001.png)
@@ -30,7 +30,7 @@ We suspect that there is some rework happening due to the fact that a Sales Orde
 
 ## Exercise 4.2 Mark a process insight and share with a colleague
 
-1. We see that Colombia seems to has a reduced automation rate, compared to Canada and US. Click the `light bulb` to add an insight
+1. We see that Colombia seems to have a reduced automation rate, compared to Canada and US. Click the `light bulb` to add an insight
 <br>![](images/4_005.png)
 
 2. Log a new insight, assign a Value Driver and select `Jennifer` as Assignee
@@ -44,18 +44,18 @@ With this we've given our colleague Jennifer a task to further investigate. We'l
 1. Go back to the Process Collaboration Hub and navigate to process `Sell from Stock (5HL)`(or click [here](https://editor.signavio.com/p/hub/model/7148c645c5b3433f9a3482c81372a00b)). Ensure that the overlay `AI Technologies` is active.
 <br>![](images/4_010.png)
 
-2. Find the `Create Sales Order` activity and find one an available automation `5LT Automatic Creation of Sales Order from Unstructure Data`. 
+2. Find the `Create Sales Order` activity and find one an available automation `5LT Automatic Creation of Sales Order from Unstructured Data`. 
 <br>![](images/4_011.png)
 
 3. Click the link to follow to find further information about the available automation
 <br>![](images/4_012.png)
 
-You can now contact the colleagues in *Columbia* and check if they would benefit from automating their Sales Order creation process! As soon as the've activated the capability you will see improvements in a trend analysis in SAP Signavio Process Intelligence.
+You can now contact the colleagues in *Columbia* and check if they would benefit from automating their Sales Order creation process! As soon as they've activated the capability you can see improvements in a trend analysis in SAP Signavio Process Intelligence.
 
 
 ## Summary
 
-You've now learned to deep dive into process analytics. The SAP Process Explorer offers a comprehensive overview on how leverage next generation practices, supported by Machine Learning, Automation or optimized Fiori Experiences!
+You've now learned to deep dive into process analytics. The SAP Signavio Process Explorer offers a comprehensive overview on next generation practices, supported by Machine Learning, Automation, or simply optimized Fiori Apps!
 
 
-Continue to - DT262 to learn more on how to automate SAP S/4HANA!
+Continue to - DT262 to learn more on how to automate SAP S/4HANA with SAP Build Process Automation!
