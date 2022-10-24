@@ -52,7 +52,7 @@ The various Widgets available in Signavio allow to flexibly drill down into data
 1. Click the light bulb icon top right of the investigation screen.
 <br>![](images/2_010.png)
 
-** Default is BillToPartyRegion Not Country. Is that any steps missing? **
+**Default is BillToPartyRegion Not BillToPartyCountry.**
 
 2. Select `Automated` one of the suggested insights to add it to the investigation. Confirm by clicking `Paste here`
 <br>![](images/2_011.png)
