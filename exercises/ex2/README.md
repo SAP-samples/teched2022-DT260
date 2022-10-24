@@ -38,6 +38,8 @@ The new metric is added to the investigation.
 4. Click the 3-dots to add a `Threshold`
 <br>![](images/2_007.png)
 
+**MISSING STEPS**
+
 5. The thresholds are shown below the actual measurement
 <br>![](images/2_009.png)
 
