@@ -1,6 +1,6 @@
 # Exercise 3: Adapt the process data model
 
-In the previous exercise we analysed standard activities related to Sell from Stock` process. In this exercise we'll further extend the process data model to also another Business Events and context data out of the connected SAP S/4HANA Cloud system.
+In the previous exercise we analysed standard activities related to 'Sell from Stock' process. In this exercise we'll further extend the process data model to also another Business Events and context data out of the connected SAP S/4HANA Cloud system.
 
 
 
