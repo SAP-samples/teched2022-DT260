@@ -30,10 +30,10 @@ _**Attention: throughout the exercise replace `XXX` with your personal participa
 5. To navigate to the Sell from Stock we drill down deeper on the `Order to Fulfill (Standard B2B)` process by clicking on the plus sign
 <br>![](images/0_006.png)
 
-5. To see now the BPMN best practice process for Sell from Stock in SAP S/4HANA Cloud, click on the plus sign of `Manage Customer Orders`
+5. To see now the BPMN(Business Process Modelling Notation)) best practice process for Sell from Stock in SAP S/4HANA Cloud, click on the plus sign of `Manage Customer Orders`
 <br>![](images/0_007.png)
 
-6. You'll find an overview of the best practice process `5HL - Sell from Stock for Consumer Products` (in Business Process Modelling Notation), all involved business roles and tasks to fulfill this activity, and links to subsequent processes (e.g. J59 Account Receivable)
+6. You'll find an overview of the best practice process `5HL - Sell from Stock - Consumer Products` in BPMN diagram, all involved business roles and tasks to fulfill this activity, and links to subsequent processes (e.g. J59 Account Receivable)
 <br>![](images/0_008.png)
 
 7. To evaluate the metrics for Sell from Stock, activate the `Overlay` functionality and chose `metrics`.
