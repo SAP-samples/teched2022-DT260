@@ -80,7 +80,7 @@ Further details can be found in `Event reference` as well as in the `Business Do
 3. Wait until both indicators show a green status
 <br>![](images/3_012.png)
 
-*Note: in case of errors click the log entry to find further details about the error. You might need to fix/adjust your extraction scripts and re-run T&L.
+Note: in case of errors click the log entry to find further details about the error. You might need to fix/adjust your extraction scripts and re-run T&L.
 
 4. Click target of the process pipeline to navigate again into the investigation view. 
 <br>![](images/3_013.png)
