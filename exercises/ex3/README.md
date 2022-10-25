@@ -72,7 +72,8 @@ Further details can be found in `Event reference` as well as in the `Business Do
 
 1. Click `Run T&L` to run the transform & load step. 
 <br>![](images/3_009.png)
-<br>Note: Click the ETL button will also retrieve the latest delta out of the actual S/4HANA Cloud backend - note that during the exercise all participants are connected to the very same system and clicking ETL will lead to additional  delays* 
+<br>Note: Click the ETL button will also retrieve the latest delta out of the actual S/4HANA Cloud backend,
+<br>Note that during the exercise all participants are connected to the very same system and clicking ETL will lead to additional delays. 
 
 2. Find the pipeline logs below the pipeline overview and click the latest entry to see the progress of the transform and load steps. 
 <br>![](images/3_010.png)
