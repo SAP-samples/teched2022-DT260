@@ -1,10 +1,10 @@
 # Exercise 4: Investigate and improve your process
 
-In this exercise we'll learn how we can use SAP Signavio Process Intelligence drill into process details. We'll mark spots for improvement with the built in Insights to collaboratively track process improvements. Then we will check how to use the Process Explorer again to find potential innovations helping implement process improvements.
+In this exercise we'll learn how we can use SAP Signavio Process Intelligence drill into process details. We will mark spots for improvement with the built in Insights to collaboratively track process improvements. Then we will check how to use the Process Explorer again to find potential innovations helping implement process improvements.
 
 
 ## Exercise 4.1 Add a new behaviour based-investigation
-We suspect that there is some rework happening due to the fact that a Sales Order was not created properly in first place. So well try to further dissect the data set. 
+We suspect that there is some rework happening due to the fact that a Sales Order was not created properly in first place. So we will try to further dissect the data set. 
 
 1. To test our hypothesis we'll create a `New Chapter`
 <br>![](images/4_001.png)
