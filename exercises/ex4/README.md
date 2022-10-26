@@ -1,6 +1,6 @@
 # Exercise 4: Investigate and improve your process
 
-In this exercise we'll learn how we can use SAP Signavio Process Intelligence drill into process details. We'll mark spots for improvement with the built in Insights to collaboratively track process improvements. Then we'll check how to use the Process Explorer again to find potential innovations helping implement process improvements.
+In this exercise we'll learn how we can use SAP Signavio Process Intelligence drill into process details. We'll mark spots for improvement with the built in Insights to collaboratively track process improvements. Then we will check how to use the Process Explorer again to find potential innovations helping implement process improvements.
 
 
 ## Exercise 4.1 Add a new behaviour based-investigation
