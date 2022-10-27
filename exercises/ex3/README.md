@@ -29,9 +29,9 @@ Process data management involves a wide range of tasks, such as extracting, tran
 ```
 SELECT
     'Block delivery for Sales Order' as c_eventname,
-    replace(ltrim(replace(SAPBusinessObjectNodeKey1, '0', ' ')), ' ', '0') AS c_caseid, /* remove leading zeros */
+    replace(ltrim(replace(SAPBusinessObjectNodeKey1, '0', ' ')), ' ', '0') AS c_caseid,
     FROM_UNIXTIME(BusEvtLogCreationDateTime / 1000) AS c_time, 
-    CreatedByUser AS CreatedByUser,
+    CreatedByUser,
     IsTechnicalUser
 FROM 
    C_BusEvtLogEventDEX AS e
@@ -47,7 +47,10 @@ The SQL-based transformation add the new event to our process instances (*Cases*
 4. Click the `preview` button to check if the extractor returns entries
 <br>![](images/3_011.png)
 
-5. Note, to find further events open [api.sap.com](api.ap.com), navigate to `S/4HANA Cloud` -> `Events`
+5. Confirm by clicking the `Save` button
+<br>![](images/3_014.png)
+
+6. Note, to find further events open [api.sap.com](https://api.sap.com), navigate to `S/4HANA Cloud` -> `Events`
 <br>![](images/3_005.png)
 
 Further details can be found in `Event reference` as well as in the `Business Documentation`. Follow the links to learn more about the underlying process details. 
@@ -61,10 +64,13 @@ Further details can be found in `Event reference` as well as in the `Business Do
 2. Click the `preview` button to check if the new column was added correctly
 <br>![](images/3_011.png)
 
-3. Note, to learn more about the S/4HANA virtual data model go to [api.sap.com](api.ap.com), navigate to `S/4HANA Cloud` -> `CDS Views`
+3. Confirm by clicking the `Save` button
+<br>![](images/3_014.png)
+
+4. Note, to learn more about the S/4HANA virtual data model go to [api.sap.com](api.ap.com), navigate to `S/4HANA Cloud` -> `CDS Views`
 <br>![](images/3_007.png)
 
-4. Navigate back to the pipeline overview
+5. Navigate back to the pipeline overview
 <br>![](images/3_008.png)
 
 
@@ -72,22 +78,25 @@ Further details can be found in `Event reference` as well as in the `Business Do
 
 1. Click `Run T&L` to run the transform & load step. 
 <br>![](images/3_009.png)
-*Note: Click the ETL button will also retrieve the latest delta out of the actual S/4HANA Cloud backend - note that during the exercise all participants are connected to the very same system and clicking ETL will lead to additional  delays* 
+*Note: Clicking the ETL button would also retrieve the latest delta out of the actual S/4HANA Cloud backend system. During the exercise all participants are connected to the very same system and clicking ETL is to be avoided as it leads to additional delays* 
 
 2. Find the pipeline logs below the pipeline overview and click the latest entry to see the progress of the transform and load steps. 
 <br>![](images/3_010.png)
 
 3. Wait until both indicators show a green status
-<br>![](images/3_012.png)
+<br>![](images/3_015.png)
 
 *Note: in case of errors click the log entry to find further details about the error. You might need to fix/adjust your extraction scripts and re-run T&L.
 
 4. Click target of the process pipeline to navigate again into the investigation view. 
-<br>![](images/3_013.png)
+<br>![](images/3_012.png)
 
 
 ## Summary
 
-You've now added further events and attributes to the process data model. You can and work with the additional  context in your investigation. 
+Congrats! 🥳 You've now added further events and attributes to the process data model. You can now  work with the additional context in your investigation, and also find further Automated Insights! 
 
-Continue to - [Exercise 4: Investigate and improve your process](../ex4/README.md)
+Continue to - **[Exercise 4: Investigate and improve your process](../ex4/README.md)**
+
+Back to the [Overview](../../README.md)
+

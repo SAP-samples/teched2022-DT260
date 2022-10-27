@@ -55,7 +55,7 @@ You can now contact the colleagues in *Columbia* and check if they would benefit
 
 ## Summary
 
-You've now learned to deep dive into process analytics. The SAP Signavio Process Explorer offers a comprehensive overview on next generation practices, supported by Machine Learning, Automation, or simply optimized Fiori Apps!
+You made it! 🥳 You've now learned to deep dive into process analytics. Learned how the SAP Signavio Process Explorer offers a comprehensive overview on next generation practices, where processes can be enhanced using Machine Learning, Automation, or simply by leveraging modern Fiori Apps!
 
 
-Continue to - DT262 to learn more on how to automate SAP S/4HANA with SAP Build Process Automation!
+Now head over to - **DT262 to learn more on how to automate SAP S/4HANA with SAP Build Process Automation!**
