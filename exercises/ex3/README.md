@@ -1,6 +1,6 @@
 # Exercise 3: Adapt the process data model
 
-In the previous exercise we analysed standard activities related to Sell from Stock` process. In this exercise we'll further extend the process data model to also another Business Events and context data out of the connected SAP S/4HANA Cloud system.
+In the previous exercise we analysed standard activities related to 'Sell from Stock' process. In this exercise we'll further extend the process data model to also another Business Events and context data out of the connected SAP S/4HANA Cloud system.
 
 
 
@@ -67,7 +67,7 @@ Further details can be found in `Event reference` as well as in the `Business Do
 3. Confirm by clicking the `Save` button
 <br>![](images/3_014.png)
 
-4. Note, to learn more about the S/4HANA virtual data model go to [api.sap.com](api.ap.com), navigate to `S/4HANA Cloud` -> `CDS Views`
+4. Note, to learn more about the S/4HANA virtual data model go to [api.sap.com](https://api.sap.com), navigate to `S/4HANA Cloud` -> `CDS Views`
 <br>![](images/3_007.png)
 
 5. Navigate back to the pipeline overview
@@ -86,7 +86,7 @@ Further details can be found in `Event reference` as well as in the `Business Do
 3. Wait until both indicators show a green status
 <br>![](images/3_015.png)
 
-*Note: in case of errors click the log entry to find further details about the error. You might need to fix/adjust your extraction scripts and re-run T&L.
+Note: in case of errors click the log entry to find further details about the error. You might need to fix/adjust your extraction scripts and re-run T&L.
 
 4. Click target of the process pipeline to navigate again into the investigation view. 
 <br>![](images/3_012.png)
