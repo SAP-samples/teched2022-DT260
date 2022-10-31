@@ -31,7 +31,7 @@ The BPMN model of our best practices process (Sell from Stock - 5HL) was linked 
 2. Select `Value`
 <br>![](images/2_005.png)
 
-3. Select type metric and select `Lead time: sales document item creation to delivery creation` (you might remember that metric from Exercise 1). Click `Save` to confirm.
+3. Select type Metric and select `Lead time: sales document item creation to delivery creation` (you might remember that metric from Exercise 1). Click `Save` to confirm.
 <br>![](images/2_006.png)
 <br>The new metric is added to the investigation.
 
