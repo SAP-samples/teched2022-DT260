@@ -51,6 +51,6 @@ You now learned how to find solution best practices processes of SAP S/4HANA Clo
 
 *Note: The content in the Teched exercise tenants was reduced to a subset and  shows a preview version. Today you can already find similar content in the [SAP Best Practices Explorer](https://rapid.sap.com)*
 
-Continue to - **[Exercise 2 - Analyse and investigate process mining results](../ex2/README.md)**
+Continue to - **[Exercise 2 - Analyze and investigate process mining results](../ex2/README.md)**
 
 Back to the [Overview](../../README.md)
