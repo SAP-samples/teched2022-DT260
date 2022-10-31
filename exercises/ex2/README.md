@@ -1,6 +1,6 @@
 # Exercise 2: Analyse and investigate process mining results
 
-In the previous exercise we saw how the process `Sell from Stock - Consumer Products (5HL)` is designed in SAP S/4HANA. In this exercise you’ll jump into SAP Signavio Process Intelligence and to retrieve live insights our of how processes are **actually** executed in your SAP S/4HANA Cloud system. 
+In the previous exercise we saw how the process `Sell from Stock - Consumer Products (5HL)` is designed in SAP S/4HANA Cloud. In this exercise you’ll jump into SAP Signavio Process Intelligence and to retrieve live insights our of how processes are **actually** executed in your SAP S/4HANA Cloud system. 
 
 
 ## Exercise 2.1 Jump to SAP Signavio Process Intelligence
