@@ -47,7 +47,7 @@ _**Attention: throughout the exercise replace `XXX` with your personal participa
 
 ## Summary
 
-You now learned how to find solution best practices processes of SAP S/4HANA, get an overview of innovations and new Fiori apps. In the next exercise you'll analyze how the process **actually** runs in your SAP S/4HANA Cloud system.
+You now learned how to find solution best practices processes of SAP S/4HANA Cloud, get an overview of innovations and new Fiori apps. In the next exercise you'll analyze how the process **actually** runs in your SAP S/4HANA Cloud system.
 
 *Note: The content in the Teched exercise tenants was reduced to a subset and  shows a preview version. Today you can already find similar content in the [SAP Best Practices Explorer](https://rapid.sap.com)*
 
