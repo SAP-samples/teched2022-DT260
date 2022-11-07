@@ -42,7 +42,7 @@ WHERE
    e.BusinessEventType = 'OvrlDlvBlkStsChgd' AND
    p.BusEvtLogNewFieldValue IN ('C') -- C=blocked
 ```
-The SQL-based transformation add the new event to our process instances (*Cases*; each case equals to a single Sales Order).
+The SQL-based transformation will add the new event to our process log (*Cases*; each case equals to a single Sales Order).
 
 4. Click the `preview` button to check if the extractor returns entries
 <br>![](images/3_011.png)

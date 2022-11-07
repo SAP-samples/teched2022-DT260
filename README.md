@@ -1,15 +1,18 @@
 # DT260 - Evolve Processes Moving to SAP S/4HANA Cloud with SAP Signavio Solutions
 
-## Description
+<br>![](exercises/banner.png)
 
-Take a deep dive into the internal processes supported by SAP S/4HANA using SAP Signavio Process Transformation Suite. Start at the surface level by leveraging the new SAP Signavio Process Explorer solution. Learn about innovations and next-generation process improvements. Then get your hands dirty with process mining to optimize your intelligent ERP system, derive insights, measure KPIs, and learn where you deviate from best practices.
+Take a deep dive into the internal processes supported by SAP S/4HANA using SAP Signavio Process Transformation Suite. Start at the surface level by leveraging the new SAP Signavio Process Explorer solution. Learn about innovations and next-generation process improvements. Then get your hands dirty with process mining to optimize your intelligent ERP system, derive insights, measure KPIs, and learn where you deviate from best practices. 
+
+
 
 ## Exercises
 
-- [Exercise 1 - Explore Best Practices Processes of SAP S/4HANA Cloud](exercises/ex1/)
+- [Exercise 1 - Explore best practices processes of SAP S/4HANA Cloud](exercises/ex1/)
 - [Exercise 2 - Analyze and investigate process mining results](exercises/ex2/)
 - [Exercise 3 - Adapt the process data model](exercises/ex3/)
-- [Exercise 4 - Investigate and improve your process](exercises/ex2/)
+- [Exercise 4 - Investigate and improve your process](exercises/ex4/)
+- [Bonus Exercises - Optional](exercises/bonus/)
 
 
 ## How to obtain support

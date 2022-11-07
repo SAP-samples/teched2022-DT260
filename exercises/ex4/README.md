@@ -1,10 +1,10 @@
 # Exercise 4: Investigate and improve your process
 
-In this exercise we'll learn how we can use SAP Signavio Process Intelligence drill into process details. We will mark spots for improvement with the built in Insights to collaboratively track process improvements. Then we will check how to use the Process Explorer again to find potential innovations helping implement process improvements.
+In this exercise we'll learn how we can use SAP Signavio Process Intelligence drill into process details. We will mark spots for improvement with the built in **Insights** marker to collaboratively work and track process improvements. Last but not least we will check how to use the Process Explorer again to find available innovations that could resolve some of the process issues found.
 
 
 ## Exercise 4.1 Add a new behaviour based-investigation
-We suspect that there is some rework happening due to the fact that a Sales Order was not created properly in first place. So we will try to further dissect the data set. 
+For this exercise we suspect that there is some rework happening due to the fact that a Sales Order was not created properly in first place. So we will try to further dissect the data set to validate our hypothesis. 
 
 1. To test our hypothesis we'll create a `New Chapter`
 <br>![](images/4_001.png)
@@ -58,4 +58,11 @@ You can now contact the colleagues in *Columbia* and check if they would benefit
 You made it! 🥳 You've now learned to deep dive into process analytics. Learned how the SAP Signavio Process Explorer offers a comprehensive overview on next generation practices, where processes can be enhanced using Machine Learning, Automation, or simply by leveraging modern Fiori Apps!
 
 
-Now head over to - **DT262 to learn more on how to automate SAP S/4HANA with SAP Build Process Automation!**
+Now head over to - **[DT262 to learn more on how to automate SAP S/4HANA with SAP Build Process Automation!](../../../teched2022-DT262)**
+
+
+## Still time left?
+Check out some of the **[Bonus Exercises 🛠️](../bonus/README.md)**
+
+
+Back to the [Overview](../../README.md)
