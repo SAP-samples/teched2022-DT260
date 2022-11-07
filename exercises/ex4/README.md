@@ -36,7 +36,7 @@ For this exercise we suspect that there is some rework happening due to the fact
 2. Log a new insight, assign a Value Driver and select `Jennifer` as Assignee
 <br>![](images/4_006.png)
 
-With this we've given our colleague Jennifer a task to further investigate. We'll proceed in the next exercise to investigate options. 
+With this we've given our colleague Jennifer a task to further investigate.
 
 
 ## Exercise 4.3 Check SAP Signavio Process Explorer for recommendations
@@ -50,7 +50,7 @@ With this we've given our colleague Jennifer a task to further investigate. We'l
 3. Click the link to follow to find further information about the available automation
 <br>![](images/4_012.png)
 
-You can now contact the colleagues in *Columbia* and check if they would benefit from automating their Sales Order creation process! As soon as they've activated the capability you can see improvements in a trend analysis in SAP Signavio Process Intelligence.
+You can now contact the colleagues in *Columbia* to check if they would benefit from automating their Sales Order creation process! As soon as they've activated the capability you can see improvements in a trend analysis in SAP Signavio Process Intelligence.
 
 
 ## Summary

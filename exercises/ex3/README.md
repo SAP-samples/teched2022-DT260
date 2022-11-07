@@ -26,7 +26,7 @@ Process data management involves a wide range of tasks, such as extracting, tran
 <br>![](images/3_004.png)
 
 3. Copy & paste the following code into the new collector. You might also rename it to `Block delivery`
-```
+```sql
 SELECT
     'Block delivery for Sales Order' as c_eventname,
     replace(ltrim(replace(SAPBusinessObjectNodeKey1, '0', ' ')), ' ', '0') AS c_caseid,
@@ -50,7 +50,7 @@ The SQL-based transformation will add the new event to our process log (*Cases*;
 5. Confirm by clicking the `Save` button
 <br>![](images/3_014.png)
 
-6. Note, to find further events open [api.sap.com](https://api.sap.com), navigate to `S/4HANA Cloud` -> `Events`
+6. Note, to find further events open [api.sap.com](https://api.sap.com) in a new browser window, navigate to `S/4HANA Cloud` -> `Events`
 <br>![](images/3_005.png)
 
 Further details can be found in `Event reference` as well as in the `Business Documentation`. Follow the links to learn more about the underlying process details. 
@@ -67,7 +67,7 @@ Further details can be found in `Event reference` as well as in the `Business Do
 3. Confirm by clicking the `Save` button
 <br>![](images/3_014.png)
 
-4. Note, to learn more about the S/4HANA virtual data model go to [api.sap.com](https://api.sap.com), navigate to `S/4HANA Cloud` -> `CDS Views`
+4. Note, to learn more about the S/4HANA virtual data model go to [api.sap.com](https://api.sap.com) in a new browser window, navigate to `S/4HANA Cloud` -> `CDS Views`
 <br>![](images/3_007.png)
 
 5. Navigate back to the pipeline overview

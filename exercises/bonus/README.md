@@ -1,6 +1,6 @@
 # Bonus Exercises
 
-This chapter contains a couple of threads to further explore SAP Signavio &amp; SAP S/4HANA Cloud
+This chapter contains a couple of ideas to further explore SAP Signavio &amp; SAP S/4HANA Cloud
 
 
 ## Exercise 5.1 Jump into the S/4HANA system
