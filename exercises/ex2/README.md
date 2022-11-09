@@ -1,6 +1,6 @@
 # Exercise 2: Analyse and investigate process mining results
 
-In the previous exercise we saw how the process `Sell from Stock - Consumer Products (5HL)` is designed in SAP S/4HANA Cloud. In this exercise you’ll jump into SAP Signavio Process Intelligence and to retrieve live insights our of how processes are **actually** executed in your SAP S/4HANA Cloud system. 
+In the previous exercise we saw how the process `Sell from Stock - Consumer Products (5HL)` is designed in SAP S/4HANA Cloud. In this exercise you’ll jump into SAP Signavio Process Intelligence to retrieve live insights how processes are executed **actually** in your SAP S/4HANA Cloud system. 
 
 
 ## Exercise 2.1 Jump to SAP Signavio Process Intelligence
@@ -53,21 +53,21 @@ The various Widgets available in Signavio Process Intelligence allow to flexibly
 1. Click the light bulb icon top right of the investigation screen.
 <br>![](images/2_010.png)
 
-2. Select `Automated` and select one of the suggested insights to click `Add to investigation`. In this Exercise choose `...BillToPartyCountry...` (*Press Ctrl+F to find on screen*) and confirm by clicking `Paste here`
+2. Select `Automated` and select one of the suggested insights to click `Add to investigation`. In this Exercise choose `Automation rate...BillToPartyRegion...` (*Press Ctrl+F to find on screen*) and confirm by clicking `Paste here`
 <br>![](images/2_011.png)
 
 3. The widget is added at the end of the investigation. Scroll down to click the 3-dots to `Edit` the widget.
 <br>![](images/2_012.png)
 
-4. You can find the SIGNAL query that was generated and change e.g. the chart type by selecting a pie chart.
+4. You can find the SiGNAL query that was generated and change e.g. the `Order`, LIMIT and add a `WHERE` condition to filter values without a BillToRegion. 
 <br>![](images/2_013.png)
 
-*Note: This exercise uses a machine generated dataset so Automated Insights will only be able to return artificial results.*
+*Note: This exercise uses a machine generated dataset so also Automated Insights will only unfortunately only be able to return very artificial results.*
 
 
 ## Summary
 
-Yay! 🥳 You've now started your first basic investigation based on a simplified data model for this exercise. Typically you'd start with one of [SAP Signavio Process Intelligence Accelerators](https://documentation.signavio.com/suite/en-us/Content/process-intelligence/accelerators-intro.htm) which are sets of different contents, like transformation templates and metrics. They are designed to help you speed up your business process transformation. For example, they simplify event log creation and reduce the time to insight.
+Yay! 🥳 You've now started your first basic investigation based on a simplified data model for this exercise. Typically you'd start with one of the [SAP Signavio Process Intelligence Accelerators](https://documentation.signavio.com/suite/en-us/Content/process-intelligence/accelerators-intro.htm) which are pre-built set of data pipelines, metrics and dashboards. They are designed to help you speed up your business process transformation. They simplify event log creation and reduce the time to insight.
 
 Continue to - **[Exercise 3: Adapt the process data model](../ex3/README.md)**
 

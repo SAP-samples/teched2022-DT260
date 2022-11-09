@@ -1,6 +1,6 @@
 # Exercise 3: Adapt the process data model
 
-In the previous exercise we analysed standard activities related to 'Sell from Stock' process. In this exercise we'll further extend the process data model to also another Business Events and context data out of the connected SAP S/4HANA Cloud system.
+In the previous exercise we analysed standard activities related to the 'Sell from Stock' process. In this exercise we'll further extend the process data modelm, adding another Business Event and context data out of the connected SAP S/4HANA Cloud system.
 
 
 
@@ -78,7 +78,7 @@ Further details can be found in `Event reference` as well as in the `Business Do
 
 1. Click `Run T&L` to run the transform & load step. 
 <br>![](images/3_009.png)
-*Note: Clicking the ETL button would also retrieve the latest delta out of the actual S/4HANA Cloud backend system. During the exercise all participants are connected to the very same system and clicking ETL is to be avoided as it leads to additional delays* 
+ *Note: Clicking the ETL button would also retrieve the latest delta out of the actual S/4HANA Cloud backend system. During the exercise all participants are connected to the very same system and clicking ETL is to be avoided as it leads to additional delays* 
 
 2. Find the pipeline logs below the pipeline overview and click the latest entry to see the progress of the transform and load steps. 
 <br>![](images/3_010.png)
@@ -88,13 +88,15 @@ Further details can be found in `Event reference` as well as in the `Business Do
 
 Note: in case of errors click the log entry to find further details about the error. You might need to fix/adjust your extraction scripts and re-run T&L.
 
-4. Click target of the process pipeline to navigate again into the investigation view. 
+<br>You can fetch a quick cup of 🍵 or browse the systems... this will take ~5-10 minutes.
+
+4. Click target of the process pipeline to navigate back into the investigation view. 
 <br>![](images/3_012.png)
 
 
 ## Summary
 
-Congrats! 🥳 You've now added further events and attributes to the process data model. You can now  work with the additional context in your investigation, and also find further Automated Insights! 
+Congrats! 🥳 You've now added further events and attributes to the process data model. You can now work with the additional context in your investigation, and also find further Automated Insights! 
 
 Continue to - **[Exercise 4: Investigate and improve your process](../ex4/README.md)**
 
