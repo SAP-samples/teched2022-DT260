@@ -44,20 +44,28 @@ _**Attention: throughout the exercise replace `XXX` with your personal participa
 9. You'll find an overview of the best practice process `5HL - Sell from Stock - Consumer Products` in BPMN diagram, all involved business roles and tasks to fulfill this activity, and links to subsequent processes (e.g. J59 Account Receivable)
 <br>![](images/0_008.png)
 
-10. To evaluate the metrics for Sell from Stock, activate the `Overlay` functionality and chose `metrics`.
+10. To evaluate the metrics for Sell from Stock, activate the `Overlay` functionality and chose `Metrics`.
 <br>![](images/0_009.png)
 
 11. Click one of the orange elements to peek into relevant metrics. 
 <br>![](images/0_010.png)
 
-12. Check out other overlays to find out more about new Fiori apps and Intelligent scenarios.
+12. Can you find the Fiori App related to the `Create Sales Order` activity? 
+<br>![](images/0_014.png)
+
+13. Click the blue marker to open the sidebar. Follow the link to the Fiori Apps Library
+<br>![](images/0_015.png)
+
+14. The Fiori Apps library lets you explore, plan and implement SAP Fiori, the latest user experience from SAP including all relevant content!
+<br>![](images/0_016.png)
+💡 You can also search for known transaction codes (e.g. try `VA02`) to find related Fiori apps! Get [recommendations](https://help.sap.com/docs/SAP%20Fiori%20Apps%20Reference%20Library/187a50cf8191418ab7b52505fcef1789/0f2b580b2e454a5a91b79119350ff4e7.html) that are relevant for you based on the business processes you use, and readiness describes how ready your system is to use SAP Fiori apps. Or check out the new [SAP Fiori Upgrade Impact Analysis](https://help.sap.com/docs/SAP%20Fiori%20Apps%20Reference%20Library/187a50cf8191418ab7b52505fcef1789/5d5ede164e4a4e95b32431c02c58dfac.html)
 
 
 ## Summary
 
 You now learned how to find solution best practices processes of SAP S/4HANA Cloud, get an overview of innovations and new Fiori apps. In the next exercise you'll analyze how the process **actually** runs in your SAP S/4HANA Cloud system.
 
-*Note: The content in this Teched exercise tenants was reduced to a subset and  shows a preview version only. Today you can already find more in the [SAP Best Practices Explorer](https://rapid.sap.com)*
+*Note: The content in this Teched exercise tenants was reduced to a subset and  shows a preview version only. Today you can already find recommendations in our [SAP Best Practices Explorer](https://rapid.sap.com)*. In additon an early beta program of the SAP Signavio Process Explorer can be accessed [here](https://www.signavio.com/one-process-acceleration-layer/). Product launch is planned mid January 2023.
 
 Continue to - **[Exercise 2 - Analyze and investigate process mining results](../ex2/README.md)**
 
