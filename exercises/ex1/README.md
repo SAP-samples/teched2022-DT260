@@ -56,9 +56,9 @@ _**Attention: throughout the exercise replace `XXX` with your personal participa
 13. Click the blue marker to open the sidebar. Follow the link to the Fiori Apps Library
 <br>![](images/0_015.png)
 
-14. The Fiori Apps library lets you explore, plan and implement SAP Fiori, the latest user experience from SAP including all relevant content!
+14. The SAP Fiori Apps Reference Library lets you explore, plan and implement SAP Fiori, the latest user experience from SAP including all relevant content!
 <br>![](images/0_016.png)
-💡 You can also search for known transaction codes (e.g. try `VA02`) to find related Fiori apps! Get [recommendations](https://help.sap.com/docs/SAP%20Fiori%20Apps%20Reference%20Library/187a50cf8191418ab7b52505fcef1789/0f2b580b2e454a5a91b79119350ff4e7.html) that are relevant for you based on the business processes you use, and readiness describes how ready your system is to use SAP Fiori apps. Or check out the new [SAP Fiori Upgrade Impact Analysis](https://help.sap.com/docs/SAP%20Fiori%20Apps%20Reference%20Library/187a50cf8191418ab7b52505fcef1789/5d5ede164e4a4e95b32431c02c58dfac.html)
+💡 You can also search for known transaction codes (e.g. try `VA02`) to find related Fiori apps. Get [recommendations](https://help.sap.com/docs/SAP%20Fiori%20Apps%20Reference%20Library/187a50cf8191418ab7b52505fcef1789/0f2b580b2e454a5a91b79119350ff4e7.html) that are relevant for you based on the business processes you use, and readiness describes how ready your system is to use SAP Fiori apps. Or check out the new [SAP Fiori Upgrade Impact Analysis](https://help.sap.com/docs/SAP%20Fiori%20Apps%20Reference%20Library/187a50cf8191418ab7b52505fcef1789/5d5ede164e4a4e95b32431c02c58dfac.html)
 
 
 ## Summary

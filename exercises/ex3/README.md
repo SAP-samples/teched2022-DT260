@@ -93,6 +93,36 @@ Note: in case of errors click the log entry to find further details about the er
 4. Click target of the process pipeline to navigate back into the investigation view. 
 <br>![](images/3_012.png)
 
+5. Let us analyze the blocked orders. In your investigation click  `New Chapter`
+<br>![](../ex4/images/4_001.png)
+
+6. Name the chapter `Blocked Deliveries` and confirm by clicking the checkmark
+<br>![](images/3_016.png)
+
+7. Create a new Widget type of `Value`
+<br>![](images/3_018.png)
+
+8. Select `Case` as attribute; this will first give us the total number of Sales Orders, we'll take care of that
+<br>![](images/3_017.png)
+
+9. To now only select the relevant Sales Orders we can add a Filter
+<br>![](images/3_019.png)
+
+10. Select `Activities` then as Event we'll use our newly created Event `Block Delivery`
+<br>![](images/3_020.png)
+💡 In case you do not see the Activity `Block Delivery` go back to your Process Data Pipeline and ensure that the `Transform & Load` run successfully
+
+11. Last we'll also add a new Widget type of `Case Table`
+<br>![](images/3_021.png)
+
+12. And simply select all fields. Ensure to also add a Filter to only select `Block Delivery`activities.
+<br>![](images/3_022.png)
+
+13. Your result can look something like this
+<br>![](images/3_023.png)
+
+💡 The case table lists Sales Orders where the Delivery has been blocked during the process. The Case ID refers to the Sales Order number out of the SAP S/4HANA system. As you learned you can flexibly structure your Investigations in Chapters. Filters can be applied on various levels like Investigation, Chapter or Widget.
+
 
 ## Summary
 
