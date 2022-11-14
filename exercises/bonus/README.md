@@ -29,12 +29,14 @@ Multiple users can work simultaneously on a dashboard without overriding each ot
 Users with consumer role can also explore the dashboards shared with them, for example, they can apply individual filters. However, they cannot save their changes.
 
 
-## Exercise 5.3 Accelerators
-In this exercise we started based on a simplified data model. SAP Signavio Process Intelligence comes with various pre-built Accelerator templates. Check them out **[here](https://documentation.signavio.com/suite/en-us/Content/process-intelligence/accelerators-intro.htm)**
+## Exercise 5.3 SAP Signavio Process Intelligence Accelerators
+In this exercise we started based on a simplified data model to analyze the main activities of the Sell from Stock process. SAP Signavio Process Intelligence comes with various detailed pre-built Accelerator templates so that processes can be analyzed in depth. Check them out **[here](https://documentation.signavio.com/suite/en-us/Content/process-intelligence/accelerators-intro.htm)**. Note next to Process Intelligence Accelerators you will further Accelerators in the Signavio ecosystem:
+<br>![](images/b_004.png)
 
 
 ## Exercise 5.4 Trigger actions
 Watch the following session to get a glimpse on how to trigger follow-up actions, based on findings of your process mining project!
+
 
 **📺 [Improve, Automate, and Extend Business Processes with Low-Code/No-Code Tools [AD109]](https://go3.events.sap.com/sapteched/hybrid/2022/reg/flow/sap/saptech2022/sapteched2022catalog/page/catalog/session/1661198036877001ERS0)**
 
