@@ -8,7 +8,7 @@ In this exercise you’ll use SAP Signavio Process Explorer to examine standard 
 Open the SAP Signavio Process Explorer [(https://editor.signavio.com/p/hub)](https://editor.signavio.com/p/hub)
 Logon with your username/password as provided by the trainings 
 
-_**Attention: throughout the exercise replace `XXX` with your personal participant number!**_
+_**⚠️ Attention: throughout the exercise replace `XXX` with your personal participant number!**_
 
 <br>![](images/0_001.png)
 
@@ -38,7 +38,7 @@ _**Attention: throughout the exercise replace `XXX` with your personal participa
 7. To navigate to the Sell from Stock process, we drill down deeper on the `Order to Fulfill (Standard B2B)` process by clicking on the ➕ sign
 <br>![](images/0_006.png)
 
-8. To see now the BPMN (Business Process Modelling Notation)) best practice process for Sell from Stock in SAP S/4HANA Cloud, click on the ➕ sign of `Manage Customer Orders`
+8. To see now the BPMN (Business Process Modelling Notation) best practice process for Sell from Stock in SAP S/4HANA Cloud, click on the ➕ sign of `Manage Customer Orders`
 <br>![](images/0_007.png)
 
 9. You'll find an overview of the best practice process `5HL - Sell from Stock - Consumer Products` in BPMN diagram, all involved business roles and tasks to fulfill this activity, and links to subsequent processes (e.g. J59 Account Receivable)
@@ -50,13 +50,24 @@ _**Attention: throughout the exercise replace `XXX` with your personal participa
 11. Click one of the orange elements to peek into relevant metrics. 
 <br>![](images/0_010.png)
 
-12. Can you find the Fiori App related to the `Create Sales Order` activity? 
+12. Click one of the listed metrics in the sidebar 
+<br>![](images/0_018.png)
+
+13. And open the `Metric Documentation` 
+<br>![](images/0_019.png)
+
+14. The documentation lists all relevant metrics for Order-to-Cash, e.g. you can also find the `Lead time: Sales document item creation to delivery creation`
+<br>![](images/0_020.png)
+
+15. Close the browser tab to navigate back to the diagram.
+
+16. Can you find the Fiori App related to the `Create Sales Order` activity? 
 <br>![](images/0_014.png)
 
-13. Click the blue marker to open the sidebar. Follow the link to the Fiori Apps Library
+17. Click the blue marker to open the sidebar. Follow the link to the Fiori Apps Library
 <br>![](images/0_015.png)
 
-14. The SAP Fiori Apps Reference Library lets you explore, plan and implement SAP Fiori, the latest user experience from SAP including all relevant content!
+18. The SAP Fiori Apps Reference Library lets you explore, plan and implement SAP Fiori, the latest user experience from SAP including all relevant content!
 <br>![](images/0_016.png)
 💡 You can also search for known transaction codes (e.g. try `VA02`) to find related Fiori apps. Get [recommendations](https://help.sap.com/docs/SAP%20Fiori%20Apps%20Reference%20Library/187a50cf8191418ab7b52505fcef1789/0f2b580b2e454a5a91b79119350ff4e7.html) that are relevant for you based on the business processes you use, and readiness describes how ready your system is to use SAP Fiori apps. Or check out the new [SAP Fiori Upgrade Impact Analysis](https://help.sap.com/docs/SAP%20Fiori%20Apps%20Reference%20Library/187a50cf8191418ab7b52505fcef1789/5d5ede164e4a4e95b32431c02c58dfac.html)
 

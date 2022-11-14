@@ -7,7 +7,7 @@ In the previous exercise we saw how the process `Sell from Stock - Consumer Prod
 
 SAP Signavio Process Intelligence is a collaborative process mining solution that helps you unleash the power in your process and experience data to transform your business.
 
-1. Click the hyperlink as shown below, or click [here](https://editor.signavio.com/g/statics/pi/areas) to open Process Intelligence
+1. In the diagram (previous exercise) click the hyperlink `Analyze in Signavio Process Intelligence` as shown below. (Alternatively you can open Process Intelligence [here](https://editor.signavio.com/g/statics/pi/areas))
 <br>![](images/2_001.png)
 
 2.	Open your process investigation (instead of `XXX` select your personal group number)
