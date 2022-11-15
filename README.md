@@ -10,7 +10,7 @@ Take a deep dive into the internal processes supported by SAP S/4HANA using SAP 
 
 - [Exercise 1 - Explore best practices processes of SAP S/4HANA Cloud](exercises/ex1/)
 - [Exercise 2 - Analyze and investigate process mining results](exercises/ex2/)
-- [Exercise 3 - Adapt the process data model](exercises/ex3/)
+- [Exercise 3 - Adapt the process data pipeline](exercises/ex3/)
 - [Exercise 4 - Investigate and improve your process](exercises/ex4/)
 - [Bonus Exercises - Optional](exercises/bonus/)
 

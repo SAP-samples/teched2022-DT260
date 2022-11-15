@@ -36,10 +36,10 @@ For this exercise we suspect that there is some rework happening due to the fact
 
 ## Exercise 4.2 Mark a process insight and share with a colleague
 
-1. We see that Colombia seems to have a reduced automation rate, compared to Canada and US. Click the `light bulb` to add an insight
+1. We see that Florida (FL) seems to have a reduced automation rate, compared to Georgia (GA) and Michigan (MI). Click the `light bulb` to add an insight
 <br>![](images/4_005.png)
 
-2. Log a new insight, assign a Value Driver and select `Jennifer` as Assignee
+2. Log a new insight, assign a Value Driver and select `Jennifer` as assignee
 <br>![](images/4_006.png)
 
 With this we've given our colleague Jennifer a task to further investigate...

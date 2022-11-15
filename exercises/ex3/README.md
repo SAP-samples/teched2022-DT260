@@ -1,4 +1,4 @@
-# Exercise 3: Adapt the process data model
+# Exercise 3: Adapt the process data pipeline
 
 In the previous exercise we analysed standard activities related to the 'Sell from Stock' process. In this exercise we'll further extend the process data model, adding another Business Event and context data out of the connected SAP S/4HANA Cloud system.
 
@@ -45,7 +45,7 @@ WHERE
 The SQL-based transformation will add the new event to our process log (*Cases*; each case equals to a single Sales Order).
 
 4. Click the `preview` button to check if the extractor returns entries
-<br>![](images/3_011.png)
+<br>![](images/3_026.png)
 
 5. Confirm by clicking the `Save` button
 <br>![](images/3_014.png)
