@@ -4,16 +4,16 @@ This chapter contains a couple of ideas to further explore SAP Signavio &amp; SA
 
 
 ## Exercise 5.1 Jump into the SAP S/4HANA Cloud system
-You can access the connected SAP S/4HANA Cloud system here: https://my401669.s4hana.cloud.sap/ui
-Open app `Track Sales Orders` to find a specific Sales Order to analyze
+You can access the connected SAP S/4HANA Cloud system here: https://my401669.s4hana.cloud.sap/ui.
+<br> Open app `Track Sales Orders` to find a specific Sales Order to analyze
 <br>![](images/b_002.png)
-...then in Signavio Process Intelligence create a new Investigation chapter and filter to compare that same Sales Order
+In SAP Signavio Process Intelligence create a new Investigation chapter and filter to compare that same Sales Order
 <br>![](images/b_001.png)
-...add a SiGNAL table widget to show all context data collected in the Process Log
+Add a SiGNAL table widget to show all context data collected in the Process Log
 
 
 ## Exercise 5.2 Dashboards
-In Signavio Process Intelligence, you'll find `Dashboards` (next to Investigations). 
+In SAP Signavio Process Intelligence, you'll find `Dashboards` (next to Investigations). 
 <br>![](images/b_003.png)
 
 With a dashboard, you can do in-depth process mining analysis and tell your story using data visualizations. It also lets you monitor key performance indicators that are relevant to a specific goal. You can create many dashboards for each business process, for example, one dashboard for each audience.
@@ -29,7 +29,7 @@ Multiple users can work simultaneously on a dashboard without overriding each ot
 Users with consumer role can also explore the dashboards shared with them, for example, they can apply individual filters. However, they cannot save their changes.
 
 ## Exercise 5.3 SAP Signavio Process Insights
-SAP Signavio Process Insights is a process analytics solution that helps you rapidly discover areas for improvement and automation within your SAP business processes. The solution then provides recommended actions to implement the necessary changes.
+SAP Signavio Process Insights is a process analytics solution that helps you rapidly discover areas for improvement and automation within your SAP business processes. The solution provides recommended actions to implement the necessary changes.
 
 1. Open SAP Signavio Process Insights demo tenant by clicking **[here](https://bestruncompany.eu11.process-insights.cloud.sap/)**. Logon with the credentials as provided by the trainers (User `Demo`)
 
@@ -39,13 +39,16 @@ SAP Signavio Process Insights is a process analytics solution that helps you rap
 3. Process Intelligence will show you a high level overview of the most important steps within the `Order to Fulfil` process. Click on one of the `Blockers`
 <br>![](images/b_301.png)
 
-4. Which will show you metrics and blockers in detail. You can also click one of them to peak into underlying data.  
+4. Which will show you metrics and blockers in detail. You can also click on one of them to peak into the underlying data.  
 <br>![](images/b_302.png)
 
-5. Click `Correction Recommendations` to get correction recommendations, such as built-in configuration changes or master data fixes, to apply quick fixes to your SAP system with clearly outlined action plans. In addition, you also get the most value from your SAP software investments with proposed SAP applications for best-practice, long-term upgrades.
+5. Click on `Correction Recommendations` to get correction recommendations, such as built-in configuration changes or master data fixes, to apply quick fixes to your SAP system with clearly outlined action plans. In addition, you also get the most value from your SAP software investments with proposed SAP applications for best-practice, long-term upgrades.
 <br>![](images/b_303.png)
 
-6. `Innovation Recommendations` identify next-practice business processes and outcomes and help to start fixing the root cause of bad process performance by leveraging process improvement recommendations directly linked to solving specific performance issues you have previously identified.
+Fix your finding with the recommended actions for your SAP system.
+<br>![](images/b_305.png)
+
+6. Click on `Innovation Recommendations` to identify next-practice business processes and outcomes. It helps to start fixing the root cause of bad process performance by leveraging process improvement recommendations directly linked to solving specific performance issues you have previously identified.
 <br>![](images/b_304.png)
 
 💡 SAP Signavio Process Insights helps you **start right away**, quickly locate, narrow down, correct, and prioritize by pointing you in the right direction – building a fast track for your process mining initiatives. 
@@ -56,7 +59,9 @@ SAP Signavio Process Intelligence (as covered in within the exercises) helps you
 
 
 ## Exercise 5.4 SAP Signavio Process Intelligence Accelerators
-In this exercise we started based on a simplified data model to analyze the main activities of the Sell from Stock process. SAP Signavio Process Intelligence comes with various detailed pre-built Accelerator templates so that processes can be analyzed in depth. Check them out **[here](https://documentation.signavio.com/suite/en-us/Content/process-intelligence/accelerators-intro.htm)**. Note next to Process Intelligence Accelerators you will further Accelerators in the Signavio ecosystem:
+In this exercise we started based on a simplified data model to analyze the main activities of the Sell from Stock process. SAP Signavio Process Intelligence comes with various detailed pre-built Accelerator templates so that processes can be analyzed in depth. Check them out **[here](https://documentation.signavio.com/suite/en-us/Content/process-intelligence/accelerators-intro.htm)**. 
+<br> Note next to Process Intelligence Accelerators you will further Accelerators in the SAP Signavio ecosystem:
+
 <br>![](images/b_004.png)
 
 
