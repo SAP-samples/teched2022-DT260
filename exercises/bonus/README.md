@@ -45,10 +45,10 @@ SAP Signavio Process Insights is a process analytics solution that helps you rap
 5. Click on `Correction Recommendations` to get correction recommendations, such as built-in configuration changes or master data fixes, to apply quick fixes to your SAP system with clearly outlined action plans. In addition, you also get the most value from your SAP software investments with proposed SAP applications for best-practice, long-term upgrades.
 <br>![](images/b_303.png)
 
-Fix your finding with the recommended actions for your SAP system.
+6. Fix your finding with the recommended actions for your SAP system.
 <br>![](images/b_305.png)
 
-6. Click on `Innovation Recommendations` to identify next-practice business processes and outcomes. It helps to start fixing the root cause of bad process performance by leveraging process improvement recommendations directly linked to solving specific performance issues you have previously identified.
+7. Click on `Innovation Recommendations` to identify next-practice business processes and outcomes. It helps to start fixing the root cause of bad process performance by leveraging process improvement recommendations directly linked to solving specific performance issues you have previously identified.
 <br>![](images/b_304.png)
 
 💡 SAP Signavio Process Insights helps you **start right away**, quickly locate, narrow down, correct, and prioritize by pointing you in the right direction – building a fast track for your process mining initiatives. 
