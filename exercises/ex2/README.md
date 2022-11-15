@@ -69,6 +69,6 @@ The various Widgets available in Signavio Process Intelligence allow to flexibly
 
 Yay! 🥳 You've now started your first basic investigation based on a simplified data model for this exercise. Typically you'd start with one of the [SAP Signavio Process Intelligence Accelerators](https://documentation.signavio.com/suite/en-us/Content/process-intelligence/accelerators-intro.htm) which are pre-built set of data pipelines, metrics and dashboards. They are designed to help you speed up your business process transformation. They simplify event log creation and reduce the time to insight.
 
-Continue to - **[Exercise 3: Adapt the process data model](../ex3/README.md)**
+Continue to - **[Exercise 3: Adapt the process data pipeline](../ex3/README.md)**
 
 Back to the [Overview](../../README.md)
