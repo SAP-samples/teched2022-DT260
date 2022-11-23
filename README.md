@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2022-DT260)](https://api.reuse.software/info/github.com/SAP-samples/teched2022-DT260)
+
 # DT260 - Evolve Processes Moving to SAP S/4HANA Cloud with SAP Signavio Solutions
 
 <br>![](exercises/banner.png)
